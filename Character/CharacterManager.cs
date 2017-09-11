@@ -58,5 +58,12 @@ namespace Character
             Console.WriteLine("An NPC has been removed");
             npcs.Remove(npc);
         }
+
+        public int GetNPCListSizeTest()
+        {
+            int r;
+            r = npcs.Count;
+            return r;
+        }
     }
 }

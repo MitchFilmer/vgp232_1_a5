@@ -31,5 +31,10 @@ namespace Character
         {
             healthPoints += amount;
         }
+
+        public int GetHealth()
+        {
+            return healthPoints;
+        }
     }
 }
