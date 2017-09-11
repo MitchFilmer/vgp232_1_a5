@@ -33,5 +33,9 @@ namespace Inventory
 			items.Sort();
 		}
 
+		public int GetSize()
+		{
+			return items.Count();
+		}
     }
 }

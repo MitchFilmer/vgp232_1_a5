@@ -27,9 +27,10 @@ namespace vgp232_Assignment5
 			inventory.Add(potion);
 			inventory.Add(map);
 
-            // TODO: create character system
-            // TODO: create persistent data system
+			// TODO: create character system
+			// TODO: create persistent data system
 
+			Console.ReadKey();
         }
     }
 }
