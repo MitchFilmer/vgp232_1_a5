@@ -25,5 +25,11 @@ namespace Inventory
         {
             items.Remove(item);
         }
+
+		public void Sort()
+		{
+			items.Sort();
+		}
+
     }
 }
