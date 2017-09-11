@@ -23,7 +23,7 @@ namespace vgp232_Assignment5
             player = PersistentData.PersistentData.Deserialize<Character.Character>("player.xml");
             if (player == null)
             {
-                Console.WriteLine("No player found, creating new default character")
+				Console.WriteLine("No player found, creating new default character");
                 player = new Character.Character(100, Races.Elf, Alignments.Neutral);
             }
 
