@@ -13,6 +13,7 @@ namespace Inventory
         
         public Inventory(int slots)
         {
+			this.slots = slots;
             items = new List<Item>(slots);
         }
 
