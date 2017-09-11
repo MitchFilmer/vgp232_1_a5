@@ -26,6 +26,7 @@ namespace Inventory
             items.Remove(item);
         }
 
+		// Done by Mitch
 		public void Sort()
 		{
 			items.Sort();
