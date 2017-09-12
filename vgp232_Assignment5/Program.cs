@@ -14,7 +14,6 @@ namespace vgp232_Assignment5
         static void Main(string[] args)
         {
             Console.WriteLine("Initializing Systems...");
-			// TODO: create inventory system
 
             // Creates an inventory and items
 			Console.WriteLine("Initializing Inventory...");
