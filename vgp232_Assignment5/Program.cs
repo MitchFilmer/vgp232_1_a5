@@ -29,12 +29,6 @@ namespace vgp232_Assignment5
 			inventory.Add(potion);
 			inventory.Add(map);
 
-			// TODO: create character system
-			// TODO: create persistent data system
-
-			Console.ReadKey();
-            // TODO: create inventory system
-
             Console.WriteLine("Initializing Character Manager");
             Character.Character player = new Character.Character(100, Race.Elf, Alignment.Neutral);
             CharacterManager characterManager = CharacterManager.Instance;
