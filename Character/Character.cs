@@ -40,25 +40,18 @@ namespace Character
 
         public void TakeDamage(int damage)
         {
-<<<<<<< HEAD
-            healthPoints -= damage;
-=======
-            HealthPoints -= 1;
->>>>>>> WIP_PersistentData
+			HealthPoints -= damage;
+
         }
 
         public void RestoreHealth(int amount)
         {
-<<<<<<< HEAD
-            healthPoints += amount;
+			HealthPoints += amount;
         }
 
         public int GetHealth()
         {
-            return healthPoints;
-=======
-            HealthPoints += 1;
->>>>>>> WIP_PersistentData
+            return HealthPoints;
         }
     }
 }
